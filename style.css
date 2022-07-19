@@ -102,7 +102,10 @@ h1 {
 .blog {
     width: 312px;
     height: 362px;
-
+    background-color: rgba(240, 255, 255, 0.671);
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px #B9B9B9;
 }
 
 .transfer button {
@@ -136,4 +139,36 @@ h3,
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 50px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    width: 1408px;
+    height: 444px;
+    background: #161616;
+    text-align: center;
+
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 1320px;
+    margin-bottom: 70px;
+}
+
+footer h1 {
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+
+footer a {
+
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 16px;
+
 }
