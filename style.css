@@ -80,7 +80,7 @@ h1 {
 .button button {
     background-color: #FFFFFF;
     border: none;
-    background: #FFFFFF;
+
     border-radius: 10px;
     width: 252px;
     height: 64px;
@@ -141,6 +141,21 @@ h3,
     grid-row-gap: 50px;
 }
 
+.view-button button {
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    width: 252px;
+    height: 64px;
+    display: none;
+}
+
 /* Footer */
 
 footer {
@@ -171,4 +186,13 @@ footer a {
     font-weight: 500;
     font-size: 16px;
 
+}
+
+@media screen and (max-width:992px) and (min-width:577px) {
+    .container {
+        width: 734px;
+        height: 398px;
+    }
+
+    .container img {}
 }
